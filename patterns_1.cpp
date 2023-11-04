@@ -1,6 +1,7 @@
 # include <iostream>
 using namespace std;
 
+// patterns can easily be generated using 2 while loops one for row and other for column
 int main()
 {   
     cout << "PATTERN 1" << endl;
