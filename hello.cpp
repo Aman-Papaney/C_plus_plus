@@ -6,8 +6,10 @@
 using namespace std;
 
 // all c++ programs start execution from main function
-int main(int argc, char const *argv[])
+int main()
 {
-    cout << "HELLO WORLD !!" << endl;
+    int num;
+    cin >> num;
+    cout << "HELLO WORLD !! " << num << endl;
     return 0;
 }
