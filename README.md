@@ -7,7 +7,7 @@ This repository is dedicated to learning and practicing C++ programming.
    git clone https://github.com/Aman-Papaney/cpp-learning.git 
    ```
 
-For this repository i have used a used a custom c++ build in Sublime Text 3.
+####  For this repository i have used a used a custom c++ build in Sublime Text 3.
 
 ```
 {
