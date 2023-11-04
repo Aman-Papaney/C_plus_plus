@@ -9,7 +9,7 @@ int main()
         // while loops runs the lines repeatedly until the given condition becomes false
         while (num < 15){
             cout << "The value of num is " << num << endl;
-            // simply updating the value of num
+            // simply updating the value of num else it will be infinite loop
             // other ways to do it num+=1, num = num + 1 
             num++;
         }
