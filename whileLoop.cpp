@@ -11,9 +11,10 @@ int main()
         //        body
     
         //     }
-        int num = 5;
+        int num = 1, sum = 0;
         while (num < 15){
-            cout << "The value of num is " << num << endl;
+            sum += num;
+            cout << "The new value of sum is " << sum << endl;
             // simply updating the value of num else it will be infinite loop
             // other ways to do it num+=1, num = num + 1 
             num++;
