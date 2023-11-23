@@ -10,7 +10,7 @@ using namespace std;
 // They are used to increase readibility and decrease the bulkiness of programs.
 
 // Syntax (for defining a function) -
-//     returnType functionName(parameters){
+//     returnType functionName(datatype parameter1, datatype parameter2, ...){
 
 //         function body
 
