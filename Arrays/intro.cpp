@@ -19,16 +19,20 @@ using namespace std;
 // To access values in array - arrayName[index].
 // To access 3rd value in array - arrayName[2]
 
+void printArray(int arr[], int size){
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] <<endl;
+    }
+}
+
 int main()
 {
-    int size = 5;
-    int myArray[size] = {1, 2, 4, 9, 90};
+    int myArray[5] = {1, 2, 4, 9, 90};
     cout << myArray[0] << endl; 
 
     cout << "Values in array :" << endl;
-    for(int i = 0; i < size; i++){
-         cout << myArray[i] << endl;
-    }
+    printArray(myArray, 5);
 
     return 0;
 }
