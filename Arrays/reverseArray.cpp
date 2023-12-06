@@ -1,6 +1,13 @@
 # include <iostream>
 using namespace std;
 
+void printArray(int arr[], int size){
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+}
+
 void reverse(int array[], int size){
 
     int _len = int(size/2);
@@ -14,10 +21,7 @@ void reverse(int array[], int size){
     }
 
     cout << "After Reversing :\n";
-    for (int i = 0; i < size; i++)
-    {
-        cout << array[i] << " ";
-    }
+    printArray(array, size);
 }
 
 int main(){
